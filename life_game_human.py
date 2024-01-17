@@ -20,7 +20,6 @@ current_field = [[random.randint(0, 1) for i in range(W)] for j in range(H)]
 water_field = [[1 if random.random() > 0.96 else 0 for i in range(W)] for j in range(H)]
 food_field = [[1 if random.random() > 0.96 else 0 for i in range(W)] for j in range(H)]
 
-
 def check_cell(current_field, water_field, food_field, x, y):
     count = 0
     water = False
